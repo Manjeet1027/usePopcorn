@@ -121,7 +121,7 @@ function Search({ query, setQuery }) {
     }
     inputEle.current.focus();
     setQuery("");
-  });
+  });           
 
 
   return (
