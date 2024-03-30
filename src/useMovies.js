@@ -20,6 +20,7 @@ export function useMovies(query){
 
           const res = await fetch(
             `https://www.omdbapi.com/?apikey=${KEY}&s=${query}`,
+            // manjeet
             { signal: controller.signal }
           );
 
